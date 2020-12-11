@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age 
-  "SELECT bears.name, bears.age FROM bears WHERE gender='F';"
+  "SELECT bears.name, bears.age FROM bears WHERE sex='F';"
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order 
@@ -27,5 +27,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim 
-  SELECT * FROM bears WHERE bears.name IS NULL;
+  "SELECT * FROM bears WHERE bears.name IS NULL;"
 end
